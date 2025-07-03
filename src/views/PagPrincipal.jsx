@@ -3,7 +3,7 @@ import "./styles/stylePagPrincipal.css"
 
 
 const PagPrincipal = () => {
-
+        // BUuuuuuuu
         return (
             <div className="panel">
                 <div className="container">
