@@ -1,4 +1,8 @@
 :root {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #520864;
+  font-family:"Righteous", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #590461;
+}
+
+body{
+  margin: 0px;
 }

@@ -1,29 +1,30 @@
 import React from "react"
+import { useNavigate } from "react-router-dom"
+import MockUp from "../assets/Free Food Delivery Man Mockupnew.png"
 import "./styles/stylePagPrincipal.css"
 
 
 const PagPrincipal = () => {
-        // BUuuuuuuu
-        return (
-            <div className="panel">
-                <div className="container">
-                    <div className="titulo-container">
-                        <h1>Delivery</h1>
-                    </div>
-                    <div className="descripcion-container">
-                        <h2>¡Bienvenido a Delivery! Acá podras calcular la duracion del tiempo de entrega </h2>
-                    </div>
-                    <div className="labelCalcular-container">
-                        <h2>Calcular Ruta </h2>
-                    </div>
+    const navigate = useNavigate()
 
+    const handleClick = () => {
+        navigate('/calcularuta');
+    }
 
-                </div>
-
+    return (
+        <div className="container">
+            <div className="titulo-container">
+                <h1>Deli-Very</h1>
             </div>
-
-            
-        )
+            <div className="descripcion-container">
+                <img src={MockUp} />
+                <div className="text-container">
+                    <p>¡Bienvenido a <strong>Deli-Very</strong>! Acá podras calcular la duracion del tiempo de tu pedido.</p>
+                    <button onClick={handleClick}>Comenzar</button>
+                </div>
+            </div>
+        </div> 
+    )
 }
 
 export default PagPrincipal

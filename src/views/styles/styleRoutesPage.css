@@ -1,0 +1,93 @@
+.container-routes{
+    margin: 0px 45px 45px 45px;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+.header-container{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding-block-start: 30px;
+    padding-inline: 60px;
+    margin-block-end: 80px;
+    font-size: 2.75rem;
+    color: rgb(89, 4, 97);
+}
+
+.header-container h1{
+    text-align: left;
+    margin: 0px;
+    font-weight: 400;
+}
+
+.header-container button{
+    padding-block: 11px;
+    padding-inline: 46px;
+}
+
+.points-container{
+    display: flex;
+    justify-content: center;
+    gap: 128px;
+    margin-block-end: 98px;
+}
+
+.points-container p{
+    font-size: 2rem;
+    margin: 0px;
+}
+
+.points-container select{
+    border-radius: 10px;
+    border-width: 0px;
+    font-family: inherit;
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 20px;
+    margin-block-start: 30px;
+    background-color: #590461;
+}
+
+.lonely-button button{
+    padding-block: 9px;
+    padding-inline: 90px;
+}
+
+.resultados-container{
+    min-height: 500px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding-block-start: 15px;
+    padding-inline-start: 40px;
+    margin-block-start: 35px;
+    margin-inline: 45px;
+    background-color: #FBE5FD;
+}
+
+.resultados-container p{
+    text-align: left;
+    font-size: 2rem;
+    margin: 0px;
+}
+
+.resultados-container .tiempo-total{
+    margin-block-start: 35px;
+}
+
+h2{
+    text-align: left;
+    margin: 0px;
+    font-size: 4rem;
+    color: #590461;
+}
+
+button{
+    border: none;
+    font-family: inherit;
+    font-size: 2rem;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #590461;
+}

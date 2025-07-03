@@ -1,51 +1,52 @@
 .container {
-    justify-content: left;
+    margin: 0px 45px 45px 45px;
+    padding-block-end: 204px;
+    background-color: #ffffff;
 }
 
 .titulo-container{
-    font-size: 50px;
+    padding-block-start: 30px;
+    padding-inline-start: 60px;
+    position: relative;
+    font-size: 2.75rem;
     color: rgb(89, 4, 97);
 }
 
 .titulo-container h1{
-    display: flex;
-    margin-top: 0px;
-    margin-left: 30px;
+    text-align: left;
+    margin: 0px;
+    font-weight: 400;
 }
 
 .descripcion-container{
-    font-size: 25px;
+    display: flex;
+    font-size: 3rem;
+    margin-block-start: 152px;
     color: rgb(0, 0, 0);
 }
 
-.descripcion-container h2{
-    display: flex;
-    margin-left: 30px;
-    
+.descripcion-container strong{
+    font-weight: 400;
+    color: #590461;
 }
 
-.labelCalcular-container {
-    font-size: 20px;
-    color: rgb(0, 0, 0);
+.descripcion-container img{
+    width: 720px;
 }
 
-
-.labelCalcular-container h2{
-    display: flex;
-    margin-left: 30px;
+.text-container{
+    padding-inline: 15px;
 }
 
-
-.panel {
-    display: flex;
-    flex-direction: column; 
-    align-items: flex-start; 
-    margin: 40px 40px 40px 40px;
-    border-radius: 50px;
-    padding-bottom: 700px;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 25px 10px rgba(255, 255, 255, 0.7);
-    box-sizing: border-box; 
+.text-container button{
+    border: none;
+    font-family: inherit;
+    font-size: 2.25rem;
+    padding-block: 8px;
+    padding-inline: 212px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #590461;
 }
 
 
